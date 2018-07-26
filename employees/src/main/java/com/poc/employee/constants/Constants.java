@@ -25,7 +25,7 @@ public interface Constants {
 	public static final String SUBORDINATE_URL = "/employee/maxSubordinates";
 	public static final String DATA_ERROR = "Data Error";
 	public static final String MAX_SUBORDINATE_METHOD = "getMaximumEmployeeSubordinate";
-	public static final String SALARY_URL = "/employee/salarySubordinate/{employeeid}";
+	public static final String SALARY_URL = "/employee/salarySubordinate/{employeeId}";
 	public static final String SALARY_METHOD = "getTotalSubordinatesSalary";
 	public static final String STRUCTURE_METHOD = "printOrganisationStructure";
 	public static final String STRUCTURE_URL = "/getOrganisationStructure";
