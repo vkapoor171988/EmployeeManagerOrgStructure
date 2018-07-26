@@ -38,7 +38,7 @@ public class RestController {
 	public Response loadEmployeeData(String empData) {
 		logger.info("Entry:" + Constants.RESTCONTROLLER + ":" + Constants.LOADEMPLOYEEDATA);
 		try {
-			if (empData != null && empData.isEmpty()) {
+			if (empData != null && !empData.isEmpty()) {
 				EmployeeService.loadEmployeeData(empData);
 				// if the employee data is created successfully
 				logger.info("Exit:" + Constants.RESTCONTROLLER + ":" + Constants.LOADEMPLOYEEDATA);
